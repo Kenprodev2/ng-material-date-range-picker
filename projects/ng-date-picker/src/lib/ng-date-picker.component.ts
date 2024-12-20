@@ -94,6 +94,8 @@ export class NgDatePickerComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
+    debugger;
+    console.log("fork repo");
     this.updateDefaultDatesValues();
   }
 
